@@ -37,6 +37,8 @@ jQuery(document).ready(function ($) {
   );
 });
 
+
+// didn't used 
 function decrementControls() {
   // Create decrement button
   const updateCart = document.querySelector(

@@ -2,7 +2,7 @@
 
 // course shortcode function 
 
-function a2n_courses_shortcode($atts)
+function courses_shortcode($atts)
 {
     $atts = shortcode_atts(
         array(
@@ -125,4 +125,4 @@ function a2n_courses_shortcode($atts)
     }
     return ob_get_clean();
 }
-add_shortcode('a2n_courses', 'a2n_courses_shortcode');
+add_shortcode('a2n_courses', 'courses_shortcode');

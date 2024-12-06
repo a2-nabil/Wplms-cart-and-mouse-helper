@@ -142,3 +142,17 @@
   vertical-align: middle;
   float: none;
 } */
+#content{
+  margin: 0 !important;
+}
+.pusher {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.a2n-course_wrapper {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  max-width: 1170px;
+}

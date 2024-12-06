@@ -16,14 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const sidebarTop = scrollTop - parentDivTop + "px";
         courseSidebar.style.position = "absolute";
         courseSidebar.style.top = sidebarTop;
-        courseSidebar.style.marginTop = "20px";
+        courseSidebar.style.marginTop = "90px";
       } else if (scrollTop >= parentDivBottom - courseSidebar.offsetHeight) {
         courseSidebar.style.position = "relative";
         courseSidebar.style.top =
           parentDiv.offsetHeight - courseSidebar.offsetHeight + "px";
+          courseSidebar.style.marginTop = "0";
       } else {
         courseSidebar.style.position = "static";
-        courseSidebar.style.marginTop = "-300px";
+        courseSidebar.style.marginTop = "-265px";
       }
     } else {
       const courseSidebar = document.querySelector(".a2n-course_sidebar");
